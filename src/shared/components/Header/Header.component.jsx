@@ -4,9 +4,11 @@ import './Header.component.css'
 export default function Header() {
   return (
     <>
-      <div className='header'>
-        <div className='icon' />
-        <div className='menu'>
+      <section className='header flex justify-between p-2'>
+        <div className='icon'>
+          Acá va un ícono :O
+        </div>
+        <div className='menu flex justify-around w-1/3'>
           <div className='menu-item'>
             Inicio
           </div>
@@ -17,7 +19,7 @@ export default function Header() {
             Ubicación
           </div>
         </div>
-      </div>
+      </section>
     </>
   )
 }
